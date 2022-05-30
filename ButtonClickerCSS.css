@@ -1,0 +1,121 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1000px;
+    height: 800px;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.menubar{
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.columnL {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.definition1{
+    width: 90%;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.rightcard{
+    padding: 20px;
+}
+
+.definition2{
+    width: 90%;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnR{
+    display: flex;
+    flex: 2;
+
+}
+
+.definedbyyou{
+    border-style: solid;
+    border-color: black;
+    height: 250px;
+    width: 90%;
+    margin-top: 53px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+#searchbar{
+    width: 300px;
+}
+
+#addeff{
+    background-color: rgb(44, 188, 44);
+    width: 300px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 3px 3px;
+    font-size: large;
+}
+
+.likebutt{
+    background-color: yellow;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 3px 3px;
+    font-size: large;
+}
